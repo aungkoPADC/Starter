@@ -9,36 +9,36 @@ import UIKit
 
 class MovieViewController: UIViewController {
 
-    @IBOutlet weak var collectionViewMovie: UICollectionView!
+    
+    @IBOutlet weak var ivSearch: UIImageView!
+    @IBOutlet weak var ivMenu: UIImageView!
+    @IBOutlet weak var viewForToolbar: UIView!
+    @IBOutlet weak var tableViewMovies: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-        collectionViewMovie.dataSource = self
-        collectionViewMovie.delegate = self
-        collectionViewMovie.register(UINib(nibName: String(describing: SampleCollectionViewCell.self), bundle: nil), forCellWithReuseIdentifier: String(describing: SampleCollectionViewCell.self))
+        tableViewMovies.dataSource = self
+        tableViewMovies.register(UINib(nibName: String(describing: MovieSliderTableViewCell.self), bundle: nil), forCellReuseIdentifier: String(describing: MovieSliderTableViewCell.self))
     }
     
-
 }
 
-extension MovieViewController : UICollectionViewDataSource,UICollectionViewDelegateFlowLayout{
+extension MovieViewController : UITableViewDataSource{
     
-    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 5
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
     }
     
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: String(describing: SampleCollectionViewCell.self), for: indexPath) as? SampleCollectionViewCell else {
-            return UICollectionViewCell()
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 1
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: String(describing:MovieSliderTableViewCell.self), for: indexPath) as? MovieSliderTableViewCell else {
+            return UITableViewCell()
         }
-        
         return cell
     }
     
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        
-        return CGSize(width: collectionView.frame.width, height: 50)
-    }
+    
 }

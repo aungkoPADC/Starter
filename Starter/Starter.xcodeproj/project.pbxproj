@@ -16,6 +16,10 @@
 		9179C0DB25AF9231008DB33D /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9179C0DA25AF9231008DB33D /* MovieViewController.swift */; };
 		9179C0DF25AF9341008DB33D /* SampleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9179C0DD25AF9341008DB33D /* SampleCollectionViewCell.swift */; };
 		9179C0E025AF9341008DB33D /* SampleCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9179C0DE25AF9341008DB33D /* SampleCollectionViewCell.xib */; };
+		9179C0F125AFA249008DB33D /* MovieSliderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9179C0EF25AFA249008DB33D /* MovieSliderTableViewCell.swift */; };
+		9179C0F225AFA249008DB33D /* MovieSliderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9179C0F025AFA249008DB33D /* MovieSliderTableViewCell.xib */; };
+		9179C0F725AFA44F008DB33D /* MovieSliderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9179C0F525AFA44F008DB33D /* MovieSliderCollectionViewCell.swift */; };
+		9179C0F825AFA44F008DB33D /* MovieSliderCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9179C0F625AFA44F008DB33D /* MovieSliderCollectionViewCell.xib */; };
 		91813546257B48C300567F80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91813545257B48C300567F80 /* AppDelegate.swift */; };
 		91813548257B48C300567F80 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91813547257B48C300567F80 /* SceneDelegate.swift */; };
 		9181354A257B48C300567F80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91813549257B48C300567F80 /* ViewController.swift */; };
@@ -35,6 +39,10 @@
 		9179C0DA25AF9231008DB33D /* MovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
 		9179C0DD25AF9341008DB33D /* SampleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleCollectionViewCell.swift; sourceTree = "<group>"; };
 		9179C0DE25AF9341008DB33D /* SampleCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SampleCollectionViewCell.xib; sourceTree = "<group>"; };
+		9179C0EF25AFA249008DB33D /* MovieSliderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieSliderTableViewCell.swift; sourceTree = "<group>"; };
+		9179C0F025AFA249008DB33D /* MovieSliderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieSliderTableViewCell.xib; sourceTree = "<group>"; };
+		9179C0F525AFA44F008DB33D /* MovieSliderCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieSliderCollectionViewCell.swift; sourceTree = "<group>"; };
+		9179C0F625AFA44F008DB33D /* MovieSliderCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieSliderCollectionViewCell.xib; sourceTree = "<group>"; };
 		91813542257B48C300567F80 /* Starter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Starter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91813545257B48C300567F80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91813547257B48C300567F80 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -108,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				9179C0DD25AF9341008DB33D /* SampleCollectionViewCell.swift */,
+				9179C0F525AFA44F008DB33D /* MovieSliderCollectionViewCell.swift */,
 			);
 			path = swifts;
 			sourceTree = "<group>";
@@ -116,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				9179C0DE25AF9341008DB33D /* SampleCollectionViewCell.xib */,
+				9179C0F625AFA44F008DB33D /* MovieSliderCollectionViewCell.xib */,
 			);
 			path = xibs;
 			sourceTree = "<group>";
@@ -125,6 +135,7 @@
 			children = (
 				9179C0CD25AF8D39008DB33D /* Sample1TableViewCell.xib */,
 				9179C0D625AF8F50008DB33D /* Sample2TableViewCell.xib */,
+				9179C0F025AFA249008DB33D /* MovieSliderTableViewCell.xib */,
 			);
 			path = xibs;
 			sourceTree = "<group>";
@@ -134,6 +145,7 @@
 			children = (
 				9179C0CC25AF8D39008DB33D /* Sample1TableViewCell.swift */,
 				9179C0D525AF8F50008DB33D /* Sample2TableViewCell.swift */,
+				9179C0EF25AFA249008DB33D /* MovieSliderTableViewCell.swift */,
 			);
 			path = swifts;
 			sourceTree = "<group>";
@@ -253,6 +265,8 @@
 				9179C0B725AF722A008DB33D /* Authentication.storyboard in Resources */,
 				91813552257B48C400567F80 /* LaunchScreen.storyboard in Resources */,
 				9181354F257B48C400567F80 /* Assets.xcassets in Resources */,
+				9179C0F225AFA249008DB33D /* MovieSliderTableViewCell.xib in Resources */,
+				9179C0F825AFA44F008DB33D /* MovieSliderCollectionViewCell.xib in Resources */,
 				9179C0CF25AF8D39008DB33D /* Sample1TableViewCell.xib in Resources */,
 				9179C0D825AF8F50008DB33D /* Sample2TableViewCell.xib in Resources */,
 				9179C0E025AF9341008DB33D /* SampleCollectionViewCell.xib in Resources */,
@@ -268,12 +282,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				9181355C257B4A4A00567F80 /* Basic.swift in Sources */,
+				9179C0F125AFA249008DB33D /* MovieSliderTableViewCell.swift in Sources */,
 				9179C0DF25AF9341008DB33D /* SampleCollectionViewCell.swift in Sources */,
 				9179C0BB25AF730A008DB33D /* MovieDetailViewController.swift in Sources */,
 				9181354A257B48C300567F80 /* ViewController.swift in Sources */,
 				9179C0DB25AF9231008DB33D /* MovieViewController.swift in Sources */,
 				9179C0D725AF8F50008DB33D /* Sample2TableViewCell.swift in Sources */,
 				9179C0CE25AF8D39008DB33D /* Sample1TableViewCell.swift in Sources */,
+				9179C0F725AFA44F008DB33D /* MovieSliderCollectionViewCell.swift in Sources */,
 				91813546257B48C300567F80 /* AppDelegate.swift in Sources */,
 				91813548257B48C300567F80 /* SceneDelegate.swift in Sources */,
 			);
