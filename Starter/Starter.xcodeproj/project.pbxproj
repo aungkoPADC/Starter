@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9179C0B725AF722A008DB33D /* Authentication.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9179C0B625AF722A008DB33D /* Authentication.storyboard */; };
+		9179C0BB25AF730A008DB33D /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9179C0BA25AF730A008DB33D /* MovieDetailViewController.swift */; };
 		91813546257B48C300567F80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91813545257B48C300567F80 /* AppDelegate.swift */; };
 		91813548257B48C300567F80 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91813547257B48C300567F80 /* SceneDelegate.swift */; };
 		9181354A257B48C300567F80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91813549257B48C300567F80 /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9179C0B625AF722A008DB33D /* Authentication.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Authentication.storyboard; sourceTree = "<group>"; };
+		9179C0BA25AF730A008DB33D /* MovieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
 		91813542257B48C300567F80 /* Starter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Starter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91813545257B48C300567F80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91813547257B48C300567F80 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 				91813547257B48C300567F80 /* SceneDelegate.swift */,
 				91813549257B48C300567F80 /* ViewController.swift */,
 				9181354B257B48C300567F80 /* Main.storyboard */,
+				9179C0BA25AF730A008DB33D /* MovieDetailViewController.swift */,
+				9179C0B625AF722A008DB33D /* Authentication.storyboard */,
 				9181354E257B48C400567F80 /* Assets.xcassets */,
 				91813550257B48C400567F80 /* LaunchScreen.storyboard */,
 				91813553257B48C400567F80 /* Info.plist */,
@@ -135,6 +141,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9179C0B725AF722A008DB33D /* Authentication.storyboard in Resources */,
 				91813552257B48C400567F80 /* LaunchScreen.storyboard in Resources */,
 				9181354F257B48C400567F80 /* Assets.xcassets in Resources */,
 				9181354D257B48C300567F80 /* Main.storyboard in Resources */,
@@ -149,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9181355C257B4A4A00567F80 /* Basic.swift in Sources */,
+				9179C0BB25AF730A008DB33D /* MovieDetailViewController.swift in Sources */,
 				9181354A257B48C300567F80 /* ViewController.swift in Sources */,
 				91813546257B48C300567F80 /* AppDelegate.swift in Sources */,
 				91813548257B48C300567F80 /* SceneDelegate.swift in Sources */,
