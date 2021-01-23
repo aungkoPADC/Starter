@@ -28,6 +28,8 @@
 		9181354F257B48C400567F80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9181354E257B48C400567F80 /* Assets.xcassets */; };
 		91813552257B48C400567F80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91813550257B48C400567F80 /* LaunchScreen.storyboard */; };
 		9181355C257B4A4A00567F80 /* Basic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9181355B257B4A4A00567F80 /* Basic.swift */; };
+		91B17B6925BBFD7300EC74DD /* PopularFilmTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B17B6725BBFD7300EC74DD /* PopularFilmTableViewCell.swift */; };
+		91B17B6A25BBFD7300EC74DD /* PopularFilmTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91B17B6825BBFD7300EC74DD /* PopularFilmTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +56,8 @@
 		91813551257B48C400567F80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		91813553257B48C400567F80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9181355B257B4A4A00567F80 /* Basic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Basic.swift; sourceTree = "<group>"; };
+		91B17B6725BBFD7300EC74DD /* PopularFilmTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularFilmTableViewCell.swift; sourceTree = "<group>"; };
+		91B17B6825BBFD7300EC74DD /* PopularFilmTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopularFilmTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +142,7 @@
 				9179C0CD25AF8D39008DB33D /* Sample1TableViewCell.xib */,
 				9179C0D625AF8F50008DB33D /* Sample2TableViewCell.xib */,
 				9179C0F025AFA249008DB33D /* MovieSliderTableViewCell.xib */,
+				91B17B6825BBFD7300EC74DD /* PopularFilmTableViewCell.xib */,
 			);
 			path = xibs;
 			sourceTree = "<group>";
@@ -148,6 +153,7 @@
 				9179C0CC25AF8D39008DB33D /* Sample1TableViewCell.swift */,
 				9179C0D525AF8F50008DB33D /* Sample2TableViewCell.swift */,
 				9179C0EF25AFA249008DB33D /* MovieSliderTableViewCell.swift */,
+				91B17B6725BBFD7300EC74DD /* PopularFilmTableViewCell.swift */,
 			);
 			path = swifts;
 			sourceTree = "<group>";
@@ -276,6 +282,7 @@
 				9179C0B725AF722A008DB33D /* Authentication.storyboard in Resources */,
 				91813552257B48C400567F80 /* LaunchScreen.storyboard in Resources */,
 				9181354F257B48C400567F80 /* Assets.xcassets in Resources */,
+				91B17B6A25BBFD7300EC74DD /* PopularFilmTableViewCell.xib in Resources */,
 				9179C0F225AFA249008DB33D /* MovieSliderTableViewCell.xib in Resources */,
 				9179C0F825AFA44F008DB33D /* MovieSliderCollectionViewCell.xib in Resources */,
 				9179C0CF25AF8D39008DB33D /* Sample1TableViewCell.xib in Resources */,
@@ -301,6 +308,7 @@
 				9179C0DB25AF9231008DB33D /* MovieViewController.swift in Sources */,
 				9179C0D725AF8F50008DB33D /* Sample2TableViewCell.swift in Sources */,
 				9179C0CE25AF8D39008DB33D /* Sample1TableViewCell.swift in Sources */,
+				91B17B6925BBFD7300EC74DD /* PopularFilmTableViewCell.swift in Sources */,
 				9179C0F725AFA44F008DB33D /* MovieSliderCollectionViewCell.swift in Sources */,
 				91813546257B48C300567F80 /* AppDelegate.swift in Sources */,
 				91813548257B48C300567F80 /* SceneDelegate.swift in Sources */,
