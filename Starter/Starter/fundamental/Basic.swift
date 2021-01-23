@@ -22,6 +22,10 @@ public func main(){
     let townships = townshipList["Yangon"] ?? []
     debugPrint(townships)
     
+    for (key,value) in townshipList.enumerated(){
+        
+    }
+    
     for color in colorList{
         debugPrint(color)
     }
