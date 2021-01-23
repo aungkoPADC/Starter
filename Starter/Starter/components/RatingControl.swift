@@ -21,6 +21,7 @@ class RatingControl: UIStackView {
     @IBInspectable var starSize : CGSize = CGSize(width: 50.0, height: 50.0){
         didSet{
             setUpButtons()
+            updateButtonRating()
         }
     }
     
@@ -28,6 +29,7 @@ class RatingControl: UIStackView {
     @IBInspectable var starCount : Int = 5{
         didSet{
             setUpButtons()
+            updateButtonRating()
         }
     }
     
@@ -52,6 +54,8 @@ class RatingControl: UIStackView {
     }
     
     private func setUpButtons(){
+        
+        clearExistingButton()
         
         for _ in 0..<starCount {
             
@@ -78,6 +82,14 @@ class RatingControl: UIStackView {
         for (index,button) in ratingButtons.enumerated() {
             button.isSelected = index < rating
         }
+    }
+    
+    private func clearExistingButton(){
+        for button in ratingButtons{
+            removeArrangedSubview(button)
+            button.removeFromSuperview()
+        }
+        ratingButtons.removeAll()
     }
     
 }
