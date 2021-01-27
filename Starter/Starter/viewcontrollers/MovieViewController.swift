@@ -21,6 +21,7 @@ class MovieViewController: UIViewController {
         tableViewMovies.register(UINib(nibName: String(describing: MovieSliderTableViewCell.self), bundle: nil), forCellReuseIdentifier: String(describing: MovieSliderTableViewCell.self))
         tableViewMovies.register(UINib(nibName: String(describing: PopularFilmTableViewCell.self), bundle: nil), forCellReuseIdentifier: String(describing: PopularFilmTableViewCell.self))
         tableViewMovies.register(UINib(nibName: String(describing: MovieShowTimeTableViewCell.self), bundle: nil), forCellReuseIdentifier: String(describing: MovieShowTimeTableViewCell.self))
+        tableViewMovies.register(UINib(nibName: String(describing: GenreTableViewCell.self), bundle: nil), forCellReuseIdentifier: String(describing: GenreTableViewCell.self))
     }
     
 }
@@ -28,7 +29,7 @@ class MovieViewController: UIViewController {
 extension MovieViewController : UITableViewDataSource{
     
     func numberOfSections(in tableView: UITableView) -> Int {
-        return 3
+        return 4
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -49,6 +50,11 @@ extension MovieViewController : UITableViewDataSource{
             return cell
         case 2:
             guard let cell = tableView.dequeueReusableCell(withIdentifier: String(describing:MovieShowTimeTableViewCell.self), for: indexPath) as? MovieShowTimeTableViewCell else {
+                return UITableViewCell()
+            }
+            return cell
+        case 3:
+            guard let cell = tableView.dequeueReusableCell(withIdentifier: String(describing:GenreTableViewCell.self), for: indexPath) as? GenreTableViewCell else {
                 return UITableViewCell()
             }
             return cell
