@@ -20,8 +20,8 @@
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5te-Yz-WBs">
                         <rect key="frame" x="0.0" y="0.0" width="318" height="45"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ACTION" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jz8-iW-gc9">
-                                <rect key="frame" x="132.5" y="14" width="53" height="17.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ACTION" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="jz8-iW-gc9">
+                                <rect key="frame" x="0.0" y="14" width="318" height="17.5"/>
                                 <fontDescription key="fontDescription" name="GeezaPro" family="Geeza Pro" pointSize="14"/>
                                 <color key="textColor" name="color_white"/>
                                 <nil key="highlightedColor"/>
@@ -40,6 +40,8 @@
                             <constraint firstItem="jz8-iW-gc9" firstAttribute="centerY" secondItem="5te-Yz-WBs" secondAttribute="centerY" id="Inm-6e-cPe"/>
                             <constraint firstAttribute="trailing" secondItem="BBS-BI-6pI" secondAttribute="trailing" id="KMH-Yj-4Rl"/>
                             <constraint firstItem="jz8-iW-gc9" firstAttribute="centerX" secondItem="5te-Yz-WBs" secondAttribute="centerX" id="MlM-Sw-0wz"/>
+                            <constraint firstAttribute="trailing" secondItem="jz8-iW-gc9" secondAttribute="trailing" id="aDh-sA-IZd"/>
+                            <constraint firstItem="jz8-iW-gc9" firstAttribute="leading" secondItem="5te-Yz-WBs" secondAttribute="leading" id="u0w-7V-XwU"/>
                             <constraint firstAttribute="bottom" secondItem="BBS-BI-6pI" secondAttribute="bottom" id="xjO-Yi-nmZ"/>
                         </constraints>
                     </view>
@@ -54,6 +56,7 @@
             </constraints>
             <size key="customSize" width="318" height="45"/>
             <connections>
+                <outlet property="containerView" destination="5te-Yz-WBs" id="iQE-kQ-ted"/>
                 <outlet property="lblGenre" destination="jz8-iW-gc9" id="ZtJ-Ta-rfK"/>
                 <outlet property="viewForOverlay" destination="BBS-BI-6pI" id="rXK-Lr-Hgz"/>
             </connections>
