@@ -18,7 +18,7 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BEST POUPLAR FILMS AND SERIALS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OcK-wY-GwM">
-                        <rect key="frame" x="8" y="8" width="256.5" height="17.5"/>
+                        <rect key="frame" x="20" y="8" width="256.5" height="17.5"/>
                         <fontDescription key="fontDescription" name="GeezaPro-Bold" family="Geeza Pro" pointSize="14"/>
                         <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <nil key="highlightedColor"/>
@@ -33,13 +33,13 @@
                             <size key="itemSize" width="128" height="128"/>
                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
                             <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                            <inset key="sectionInset" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <inset key="sectionInset" minX="20" minY="0.0" maxX="20" maxY="0.0"/>
                         </collectionViewFlowLayout>
                     </collectionView>
                 </subviews>
                 <color key="backgroundColor" name="color_primary"/>
                 <constraints>
-                    <constraint firstItem="OcK-wY-GwM" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="ClH-GL-JJq"/>
+                    <constraint firstItem="OcK-wY-GwM" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="ClH-GL-JJq"/>
                     <constraint firstAttribute="bottom" secondItem="zus-aF-fgd" secondAttribute="bottom" id="RVY-4T-0MK"/>
                     <constraint firstItem="zus-aF-fgd" firstAttribute="top" secondItem="OcK-wY-GwM" secondAttribute="bottom" constant="8" id="Yih-1n-HvK"/>
                     <constraint firstItem="zus-aF-fgd" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="haD-nU-KcD"/>

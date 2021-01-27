@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9153065925C1F4E300A0F7BE /* MovieShowTimeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9153065725C1F4E300A0F7BE /* MovieShowTimeTableViewCell.swift */; };
+		9153065A25C1F4E300A0F7BE /* MovieShowTimeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9153065825C1F4E300A0F7BE /* MovieShowTimeTableViewCell.xib */; };
 		9179C0B725AF722A008DB33D /* Authentication.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9179C0B625AF722A008DB33D /* Authentication.storyboard */; };
 		9179C0BB25AF730A008DB33D /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9179C0BA25AF730A008DB33D /* MovieDetailViewController.swift */; };
 		9179C0CE25AF8D39008DB33D /* Sample1TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9179C0CC25AF8D39008DB33D /* Sample1TableViewCell.swift */; };
@@ -35,6 +37,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9153065725C1F4E300A0F7BE /* MovieShowTimeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieShowTimeTableViewCell.swift; sourceTree = "<group>"; };
+		9153065825C1F4E300A0F7BE /* MovieShowTimeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieShowTimeTableViewCell.xib; sourceTree = "<group>"; };
 		9179C0B625AF722A008DB33D /* Authentication.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Authentication.storyboard; sourceTree = "<group>"; };
 		9179C0BA25AF730A008DB33D /* MovieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
 		9179C0CC25AF8D39008DB33D /* Sample1TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample1TableViewCell.swift; sourceTree = "<group>"; };
@@ -148,6 +152,7 @@
 				9179C0CD25AF8D39008DB33D /* Sample1TableViewCell.xib */,
 				9179C0D625AF8F50008DB33D /* Sample2TableViewCell.xib */,
 				9179C0F025AFA249008DB33D /* MovieSliderTableViewCell.xib */,
+				9153065825C1F4E300A0F7BE /* MovieShowTimeTableViewCell.xib */,
 				91B17B6825BBFD7300EC74DD /* PopularFilmTableViewCell.xib */,
 			);
 			path = xibs;
@@ -159,6 +164,7 @@
 				9179C0CC25AF8D39008DB33D /* Sample1TableViewCell.swift */,
 				9179C0D525AF8F50008DB33D /* Sample2TableViewCell.swift */,
 				9179C0EF25AFA249008DB33D /* MovieSliderTableViewCell.swift */,
+				9153065725C1F4E300A0F7BE /* MovieShowTimeTableViewCell.swift */,
 				91B17B6725BBFD7300EC74DD /* PopularFilmTableViewCell.swift */,
 			);
 			path = swifts;
@@ -295,6 +301,7 @@
 				9179C0CF25AF8D39008DB33D /* Sample1TableViewCell.xib in Resources */,
 				9179C0D825AF8F50008DB33D /* Sample2TableViewCell.xib in Resources */,
 				9179C0E025AF9341008DB33D /* SampleCollectionViewCell.xib in Resources */,
+				9153065A25C1F4E300A0F7BE /* MovieShowTimeTableViewCell.xib in Resources */,
 				9181354D257B48C300567F80 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,6 +313,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9153065925C1F4E300A0F7BE /* MovieShowTimeTableViewCell.swift in Sources */,
 				9181355C257B4A4A00567F80 /* Basic.swift in Sources */,
 				9179C0F125AFA249008DB33D /* MovieSliderTableViewCell.swift in Sources */,
 				9179C0DF25AF9341008DB33D /* SampleCollectionViewCell.swift in Sources */,
