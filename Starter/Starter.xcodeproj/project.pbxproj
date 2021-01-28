@@ -39,6 +39,7 @@
 		91B17B6A25BBFD7300EC74DD /* PopularFilmTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91B17B6825BBFD7300EC74DD /* PopularFilmTableViewCell.xib */; };
 		91B17B7725BC0CD800EC74DD /* PopularFilmCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B17B7525BC0CD800EC74DD /* PopularFilmCollectionViewCell.swift */; };
 		91B17B7825BC0CD800EC74DD /* PopularFilmCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91B17B7625BC0CD800EC74DD /* PopularFilmCollectionViewCell.xib */; };
+		91F49A5525C3560B000400A5 /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F49A5425C3560B000400A5 /* ViewExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +77,7 @@
 		91B17B6825BBFD7300EC74DD /* PopularFilmTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopularFilmTableViewCell.xib; sourceTree = "<group>"; };
 		91B17B7525BC0CD800EC74DD /* PopularFilmCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularFilmCollectionViewCell.swift; sourceTree = "<group>"; };
 		91B17B7625BC0CD800EC74DD /* PopularFilmCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopularFilmCollectionViewCell.xib; sourceTree = "<group>"; };
+		91F49A5425C3560B000400A5 /* ViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -236,6 +238,7 @@
 		91813544257B48C300567F80 /* Starter */ = {
 			isa = PBXGroup;
 			children = (
+				91F49A5325C355F9000400A5 /* utils */,
 				9153066C25C2040E00A0F7BE /* vos */,
 				9179C0FD25AFB1B4008DB33D /* components */,
 				9179C0ED25AF98E8008DB33D /* resource */,
@@ -255,6 +258,14 @@
 				9181355B257B4A4A00567F80 /* Basic.swift */,
 			);
 			path = fundamental;
+			sourceTree = "<group>";
+		};
+		91F49A5325C355F9000400A5 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				91F49A5425C3560B000400A5 /* ViewExtensions.swift */,
+			);
+			path = utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -349,6 +360,7 @@
 				9153066125C1FE6D00A0F7BE /* GenreTableViewCell.swift in Sources */,
 				91B17B7725BC0CD800EC74DD /* PopularFilmCollectionViewCell.swift in Sources */,
 				9153066725C1FF5300A0F7BE /* GenreCollectionViewCell.swift in Sources */,
+				91F49A5525C3560B000400A5 /* ViewExtensions.swift in Sources */,
 				9179C0DB25AF9231008DB33D /* MovieViewController.swift in Sources */,
 				9179C0D725AF8F50008DB33D /* Sample2TableViewCell.swift in Sources */,
 				9179C0CE25AF8D39008DB33D /* Sample1TableViewCell.swift in Sources */,
