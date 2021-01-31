@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+protocol ActorActionDelegate {
+    
+    func onTapFavorite(isFavorte:Bool)
+}
