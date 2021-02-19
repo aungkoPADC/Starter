@@ -12,7 +12,7 @@ class GenreTableViewCell: UITableViewCell {
     @IBOutlet weak var collectionViewGenre: UICollectionView!
     @IBOutlet weak var collectionViewMovie: UICollectionView!
     
-    let genreList = [GenreVO(name: "ACTION", isSelected: true),GenreVO(name: "DRAMA", isSelected: false),GenreVO(name: "COMEDY", isSelected: false),GenreVO(name: "ADVENTUREEEEEEE", isSelected: false),GenreVO(name: "BIOGRAPHY", isSelected: false)]
+    let genreList = [GenreVO(name: "ACTION", isSelected: true),GenreVO(name: "DRAMA", isSelected: false),GenreVO(name: "COMEDY", isSelected: false),GenreVO(name: "ADVENTURE", isSelected: false),GenreVO(name: "BIOGRAPHY", isSelected: false)]
     let movieList = [""]
     
     override func awakeFromNib() {

@@ -7,7 +7,7 @@
 
 import UIKit
 
-class MovieViewController: UIViewController {
+class MovieViewController: UIViewController,MovieItemDelegate {
     
     
     @IBOutlet weak var ivSearch: UIImageView!
@@ -31,6 +31,11 @@ class MovieViewController: UIViewController {
         tableViewMovies.registerForCell(identifier: BestActorTableViewCell.identifier)
     }
     
+    func onTapMovie() {
+       navigateToMovieDetailViewController()
+    }
+    
+    
 }
 
 extension MovieViewController : UITableViewDataSource{
@@ -46,9 +51,13 @@ extension MovieViewController : UITableViewDataSource{
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         switch indexPath.section {
         case MovieType.MOVIE_SLIDER.rawValue:
-            return tableView.dequeueCell(identifier: MovieSliderTableViewCell.identifier, indexPath: indexPath)
+            let cell = tableView.dequeueCell(identifier: MovieSliderTableViewCell.identifier, indexPath: indexPath) as MovieSliderTableViewCell
+            cell.delegate = self
+            return cell
         case MovieType.MOVIE_POPULAR.rawValue:
-            return tableView.dequeueCell(identifier: PopularFilmTableViewCell.identifier, indexPath: indexPath)
+            let cell = tableView.dequeueCell(identifier: PopularFilmTableViewCell.identifier, indexPath: indexPath) as PopularFilmTableViewCell
+            cell.delegate = self
+            return cell
         case MovieType.MOVIE_SHOWTIME.rawValue:
             return tableView.dequeueCell(identifier: MovieShowTimeTableViewCell.identifier, indexPath: indexPath)
         case MovieType.MOVIE_GENRE.rawValue:

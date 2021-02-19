@@ -115,13 +115,13 @@
         <!--Movie Detail View Controller-->
         <scene sceneID="uUu-C7-2Yn">
             <objects>
-                <viewController id="jGD-8L-iBS" customClass="MovieDetailViewController" customModule="Starter" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MovieDetailViewController" id="jGD-8L-iBS" customClass="MovieDetailViewController" customModule="Starter" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="w5t-qT-Duf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qTB-Ss-Yrr" customClass="RatingControl" customModule="Starter" customModuleProvider="target">
-                                <rect key="frame" x="20" y="59" width="200" height="110"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qTB-Ss-Yrr" customClass="RatingControl" customModule="Starter" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="44" width="140" height="20"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="starCount">
                                         <integer key="value" value="7"/>
